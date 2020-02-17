@@ -5,6 +5,7 @@ step4 ：否则则打印已存在
 
 '''
 
+'''
 import os
 
 Message = "这个文件已经存在"
@@ -15,3 +16,4 @@ if not os.path.exists(os.path.join(UserPath,makedir)):
     os.mkdir(os.path.join(UserPath,makedir))
 else:
     print(Message)
+'''
